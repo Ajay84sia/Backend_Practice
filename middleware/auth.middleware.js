@@ -16,6 +16,8 @@ const auth = (req, res, next) => {
         } catch (error) {
             res.send({ "err": error.message })
         }
+    }else{
+        res.send({ "msg": "Please Login!!" })
     }
 }
 
