@@ -5,6 +5,8 @@ const userSchema = mongoose.Schema({
     age:{type:Number, require:true},
     email:{type:String, require:true},
     pass:{type:String, require:true},
+},{
+    versionKey:false
 })
 
 

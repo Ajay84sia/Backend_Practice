@@ -10,7 +10,7 @@ app.use(express.json())
 
 
 app.get("/", (req, res) => {
-    console.log("Basic API Endpoint")
+    res.send("Basic API Endpoint")
 })
 
 
